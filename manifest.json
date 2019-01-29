@@ -1,0 +1,28 @@
+{
+  "name": "Open Air Automator",
+  "version": "0.0.1",
+  "description": "Automating you open air login time tool",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": [
+      "./scripts/background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon/icon-robot.jpg",
+      "32": "images/icon/icon-robot.jpg",
+      "48": "images/icon/icon-robot.jpg",
+      "128": "images/icon/icon-robot.jpg"
+    },
+    "icons": {
+      "16": "images/icon/icon-robot.jpg",
+      "32": "images/icon/icon-robot.jpg",
+      "48": "images/icon/icon-robot.jpg",
+      "128": "images/icon/icon-robot.jpg"
+    }
+  },
+  "manifest_version": 2
+}
