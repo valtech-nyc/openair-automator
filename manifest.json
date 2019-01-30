@@ -1,8 +1,8 @@
 {
   "name": "Open Air Automator",
   "version": "0.0.1",
-  "description": "Automating you open air login time tool",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "description": "Automate open air time entry tool",
+  "permissions": ["activeTab", "declarativeContent", "storage", "*://*.openair.com/*"],
   "background": {
     "scripts": [
       "./scripts/background.js"

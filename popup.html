@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            button{
-                height: 30px;
-                width: 30px;
-                outline: none;
-            }
-        </style>
+        <link rel="stylesheet" href="./styles/popup.css" >
     </head>
     <body>
-        <button id="changeColor"></button>
+        <header></header>
+        <section class="content">
+            <section class="project">
+                <header class="header">
+                    <div>
+                        <div class="custom-dropdown">
+                            <select>
+                                <option>Project</option>
+                                <option>Chanel - Chanel Inside</option>
+                                <option>Chanel - Chanel Outside</option>
+                                <option>Chanel - Chanel Inside</option>
+                                <option>Chanel - Chanel Inside</option>
+                            </select>
+                        </div>
+                        <div class="custom-dropdown">
+                            <select>
+                                <option>Tasks</option>
+                                <option>Development</option>
+                                <option>Non Billable</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="percentage" type="text" placeholder="%" value="100" />
+                </header>
+                <div class="day-selection">
+                    <div class="day">
+                        <label>M</label>
+                        <input type="checkbox" checked>
+                    </div>
+                    <div class="day">
+                        <label>T</label>
+                        <input type="checkbox" checked>
+                    </div>
+                    <div class="day">
+                        <label>W</label>
+                        <input type="checkbox" checked>
+                    </div>
+                    <div class="day">
+                        <label>TH</label>
+                        <input type="checkbox" checked>
+                    </div>
+                    <div class="day">
+                        <label>F</label>
+                        <input type="checkbox" checked>
+                    </div>
+                </div>
+                <div>
+                    <input class="comment" placeholder="Please enter your comment here" type="text" width="5" height="5">
+                </div>
+            </section>
+            <button class="add">+</button>
+        </section>
+        <footer>
+            <button class="primary" id="publish">Save</button>
+            <button class="primary" id="submit">Submit</button>
+        </footer>
         <script src="./scripts/popup.js"></script>
     </body>
 </html>
